@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="234dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Создание аккаунта"
+        android:textColor="#DC6641"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/User_login"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColorHint="#DC6641"
+        android:layout_marginTop="40dp"
+        android:textColor="#DC6641"
+        android:layout_gravity="center"
+        android:hint="Login"
+         />
+
+    <EditText
+        android:id="@+id/User_mail"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#DC6641"
+        android:layout_marginTop="40dp"
+        android:textColor="#DC6641"
+        android:layout_gravity="center"
+        android:hint="Mail"/>
+
+    <EditText
+        android:id="@+id/User_password"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColorHint="#DC6641"
+        android:layout_marginTop="40dp"
+        android:textColor="#DC6641"
+        android:layout_gravity="center"
+        android:hint="Password"/>
+
+    <Button
+        android:id="@+id/ButReg"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#121315"
+        android:backgroundTint="#DC6641"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:text="Регистрация" />
+    <TextView
+        android:id="@+id/ToAut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Уже зарегистрирован"
+        android:textColor="#DC6641"
+        android:textStyle="normal"
+        android:textSize="15dp" />
+
+</LinearLayout>

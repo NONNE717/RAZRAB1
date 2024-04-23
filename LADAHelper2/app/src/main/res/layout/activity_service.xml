@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".ServiceActivity">
+    <TextView
+        android:id="@+id/Serviselog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/inter_semibold"
+        android:textColor="#DC6641"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Сервисы" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/Servkz"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/servkzn" />
+
+            <TextView
+                android:id="@+id/Servkzn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_semibold"
+                android:textColor="#DC6641"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="Официальный сервис LADA Казань" />
+
+            <ImageView
+                android:id="@+id/ServMs"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/servmsk" />
+            <TextView
+                android:id="@+id/Servmsk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_semibold"
+                android:textColor="#DC6641"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="Официальный сервис LADA Москва" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#303030"
+    tools:context=".DdmActivity">
+    <TextView
+        android:id="@+id/ddmzag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/inter_semibold"
+        android:textColor="#FD9474"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Датчик давления масла" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imageView34"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/lampaddm" />
+
+            <TextView
+                android:id="@+id/ddmzag1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_semibold"
+                android:textColor="#FFFFFF"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="Если на вашем автомобиле загорелась лампа давления масла, то после остановки необходимо проверить следующее:" />
+            <TextView
+                android:id="@+id/ddmzag2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_semibold"
+                android:textColor="#FFFFFF"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="1.Проверить наличие масла в двигателе, при низком уровне масла, его количества будет недостаточно, чтобы образовалось необходимое давление для правильной работы ДВС. Потеря масла может возникнуть из-за износа ЦПГ, пробоя поддона или других утечек в двигателе." />
+
+
+            <TextView
+                android:id="@+id/ddmzag3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_semibold"
+                android:textColor="#FFFFFF"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="2.Проверить состояние датчика и его проводки, возможно с датчика просто слетела фишка (разъем). Проводка датчика должна быть исправна и не должна иметь следов оплавления и порывов изоляции." />
+            <TextView
+                android:id="@+id/ddmzag4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_semibold"
+                android:textColor="#FFFFFF"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="3.Если визуальный осмотр показал что с автомобилем все в порядке, но лампа давления масла все равно горит, необходимо отбуксировать автомобиль до станции технического обслуживания для дальнейшей диагностики." />
+            <TextView
+                android:id="@+id/ddmzag6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_semibold"
+                android:textColor="#FFFFFF"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="Место расположение датчика : На 8-ми клапанном двигателе датчик давления масла расположен с левой стороны двигателя возле кожуха механизма ГРМ." />
+            <ImageView
+                android:id="@+id/imagetermost"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mestoddm" />
+            <TextView
+                android:id="@+id/ddmzag5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_semibold"
+                android:textColor="#FFFFFF"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="Схема работы ДДМ" />
+
+            <ImageView
+                android:id="@+id/imagesxem"
+                android:layout_width="380dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sxemaddm" />
+            <TextView
+                android:id="@+id/ddmzag7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_semibold"
+                android:textColor="#FFFFFF"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="Замена датчика :" />
+            <TextView
+                android:id="@+id/ddmzag8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_semibold"
+                android:textColor="#FFFFFF"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="Замену датчика можно провести самостоятельно без особых усилий. Для этого достаточно подготовить ключ на 21мм. 1.Снимаем разъем с датчика давления масла;Откручиваем датчик против часовой стрелки с помощью рожкового ключа на 21мм;Вынимаем датчик и протираем посадочное место от грязи;
+Устанавливаем новый датчик в обратной последовательности, не забыв установить уплотнительное кольцо;" />
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                <TextView
+                    android:id="@+id/ddmzag9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/inter_semibold"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Видео с заменой ДДМ:"/>
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/youtube_player_view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:autoPlay="false" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

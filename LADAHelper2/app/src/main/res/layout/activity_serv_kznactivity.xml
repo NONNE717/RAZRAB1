@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".ServKZNActivity">
+    <TextView
+        android:id="@+id/Serviselogzag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/inter_semibold"
+        android:textColor="#DC6641"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Официальный сервис LADA Казань" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/Servkz"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/servkzn" />
+
+            <TextView
+                android:id="@+id/Servkznzag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_semibold"
+                android:textColor="#DC6641"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="Адрес: Оренбургский тракт, 207А (этаж 1)"
+                />
+            <TextView
+                android:id="@+id/Servkzncont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_semibold"
+                android:textColor="#DC6641"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="Контакты:\n+7 (843) 230-30-30;\n+7 (843) 239-77-12"
+                />
+            <TextView
+                android:id="@+id/Servkznchas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_semibold"
+                android:textColor="#DC6641"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="Часы работы:\nПонедельник	09:00-21:00\nВторник	09:00-21:00
+                \nСреда	09:00-21:00
+                \nЧетверг	09:00-21:00
+                \nПятница	09:00-21:00
+                \nСуббота	09:00-21:00
+                \nВоскресенье	09:00-21:00"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

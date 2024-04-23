@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#303030"
+    tools:context=".PatrrubkiActivity">
+    <TextView
+        android:id="@+id/patrub2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/inter_semibold"
+        android:textColor="#FD9474"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Патрубки охлаждения двигателя" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_zagpatrub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_semibold"
+                android:textColor="#FFFFFF"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="1.проверка системы охлаждения" />
+            <TextView
+                android:id="@+id/text_zagpatrubtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_semibold"
+                android:textColor="#FFFFFF"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="1. Проверьте уровень охлаждающей жидкости в расширительном бачке, он должен быть между метками «МИН» и «МАКС». Если тосол приходится периодически доливать, значит система не герметична (проверяем целостность: шлангов, сливных отверстий радиатора, блока цилиндров, мест установки датчиков, корпуса расширительного бачка, насоса и его соединений, радиаторов двигателя и отопителя)." />
+
+            <ImageView
+                android:id="@+id/imageView34"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bachok" />
+            <TextView
+                android:id="@+id/text_zagpatrubtext2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_semibold"
+                android:textColor="#FFFFFF"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="2. Проверяем термостат. Прогреваем двигатель до 85-92С и проверяем нижний отводящий от радиатора шланг радиатора (на схеме №10), если он холодный, значит охлаждающая жидкость циркулирует только по малому кругу, термостат неисправен и его следует заменить." />
+            <ImageView
+                android:id="@+id/imagetermost"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/termostatjpeg" />
+            <TextView
+                android:id="@+id/text_zagpatrubtext3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_semibold"
+                android:textColor="#FFFFFF"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="3.Проверяем циркуляцию тосола в системе охлаждения. Открываем крышку расширительного бачка и следим за поступлением тосола в бачок. Внимание, система охлаждения находится под давлением, а тосол в системе может быть горячим, открывайте крышку расширительного бачка очень аккуратно. Плохая циркуляция тосола указывает на неисправность водяного насоса (помпы), либо система охлаждения забита (необходимо прочистить)." />
+            <TextView
+                android:id="@+id/text_zagpatrub2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_semibold"
+                android:textColor="#FFFFFF"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="Принципиальная схема охлаждения двигателя" />
+            <ImageView
+                android:id="@+id/imagesxem"
+                android:layout_width="380dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sxemapatrub" />
+            <TextView
+                android:id="@+id/text_zagpatrub4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_semibold"
+                android:textColor="#FFFFFF"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="2.Замена патрубков охлаждения" />
+            <TextView
+                android:id="@+id/text_zagpatrub5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/inter_semibold"
+                android:textColor="#FFFFFF"
+                android:textStyle="normal"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp"
+                android:text="При замене патрубков радиатора никаких сложностей возникнуть не должно. Снимаем старые, одеваем новые. Подводящий патрубок крепится к верхушке радиатора, отводящий — снизу. Стоит отметить, что отводящий патрубок состоит из 2-х — одна его часть (основная) идет к термостату, вторая — к расширительному бачку. Этот патрубок самый дорогой — его стоимость превышает суммарную стоимость всех остальных патрубков вмсте взятых. Поэтому к нему желательно относиться бережно." />
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                <TextView
+                    android:id="@+id/text_zagpatrub6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/inter_semibold"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="normal"
+                    android:textSize="15dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Как правильно выгнать воздух из системы:"/>
+
+                <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                    android:id="@+id/youtube_player_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:autoPlay="false" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
